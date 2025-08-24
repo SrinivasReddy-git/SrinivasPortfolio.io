@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srinivasa Reddy | Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card: #1a1a1a;
+      --text: #e0e0e0;
+      --accent: #999;
+      --hover: #ccc;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--hover);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #121212;
+      border-bottom: 1px solid #222;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid #444;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 1.1em;
+      color: var(--accent);
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-weight: 600;
+      font-size: 0.95em;
+      transition: color 0.3s;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background-color: var(--card);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.04);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.07);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: #111;
+      color: var(--text);
+      font-size: 1em;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background: #333;
+      border: none;
+      color: var(--text);
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #777;
+      font-size: 0.9em;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <img src="profile.jpg" alt="Srinivasa Reddy" class="profile-pic" />
+    <h1>Srinivasa Reddy</h1>
+    <p class="tagline">Aspiring Cybersecurity Enthusiast | Cultural Leader | Sports Passionate</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I am a 5th-semester BCA student at Christ Academy Institute for Advanced Studies, passionate about cultural events, cricket, traveling, and technology. Skilled in Python, Java, and Networking, I aspire to pursue a career in Cybersecurity while continuing to be active in leadership and sports.</p>
+      <ul>
+        <li>🎭 Joint Cultural Secretary</li>
+        <li>🏏 Cricket Captain</li>
+        <li>📚 Academic Excellence</li>
+      </ul>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BCA</strong> (2023–2026) – Christ Academy Institute for Advanced Studies</li>
+        <li><strong>P.U.</strong> (2020–2022) – Matrix IIT Academy (86.5%)</li>
+        <li><strong>Drop Year</strong> (2022) – JEE Prep (95.6 percentile)</li>
+        <li><strong>Schooling</strong> – Dr. KKR Gowtham School, Guntur (10/10 GPA)</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience & Leadership</h2>
+      <ul>
+        <li>🎉 Joint Cultural Secretary (2023–2025)</li>
+        <li>🏆 Organized events: Sangamotsav, Rangotsav, Technovanza, Graduation Day, Elysian</li>
+        <li>🏏 Cricket Captain (School District Level)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills & Expertise</h2>
+      <h4>Technical</h4>
+      <p>Python, Java, Networking, Cybersecurity Fundamentals</p>
+      <h4>Leadership</h4>
+      <p>Event Planning, Cultural Coordination, Student Leadership</p>
+      <h4>Soft Skills</h4>
+      <p>Communication, Teamwork, Adaptability, Discipline</p>
+      <h4>Sports</h4>
+      <p>Cricket Leadership, Team Coordination</p>
+    </section>
+
+    <section id="services" class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>💻 Web Development & Programming Support (Python, Java)</li>
+        <li>🌐 Networking & System Setup (basic level, aspiring cybersecurity)</li>
+        <li>🎯 Event Planning & Coordination</li>
+        <li>🏏 Sports & Team Leadership Guidance</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects & Achievements</h2>
+      <ul>
+        <li>🏆 Hackathon Winner (2023, 1st Year UG)</li>
+        <li>📚 Sanskrit Quiz Winner (2024, 2nd Year UG)</li>
+        <li>🥇 AIR 14 (Maths, Science & Social Exam)</li>
+        <li>💻 Networking Mini-Projects</li>
+        <li>🎭 Organized Cultural & Technical Events</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Email: <a href="mailto:srinivasreddy.b21@gmail.com">srinivasreddy.b21@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919014544649">+91 9014544649</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/srinivasareddybandi" target="_blank">linkedin.com/in/srinivasareddybandi</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Srinivasa Reddy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
